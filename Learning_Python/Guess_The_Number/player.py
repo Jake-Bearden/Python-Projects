@@ -21,4 +21,3 @@ class Player:
         print(f"Games Played: {self.games_played}")
         print(f"Games Won: {self.games_won}")
         print(f"Best Score: {self.best_score}")
-        pass
