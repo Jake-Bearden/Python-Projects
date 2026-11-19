@@ -20,4 +20,9 @@ class Player:
         print(f"Player: {self.name}")
         print(f"Games Played: {self.games_played}")
         print(f"Games Won: {self.games_won}")
+<<<<<<< HEAD
         print(f"Best Score: {self.best_score}")
+=======
+        print(f"Best Score: {self.best_score}")
+        pass
+>>>>>>> ab3cf02d52c536c8cf7f785b58ad29688501b30b

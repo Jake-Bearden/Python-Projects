@@ -19,13 +19,19 @@ class GuessingGame:
         self.show_results()
 
     def get_player_name(self):
+<<<<<<< HEAD
         self.player.name = input("Enter your name: ")
+=======
+        # Get player's name
+        pass
+>>>>>>> ab3cf02d52c536c8cf7f785b58ad29688501b30b
 
     def select_difficulty(self):
         # Allow player to select difficulty
         # Easy: 1-50
         # Medium: 1-100
         # Hard: 1-500
+<<<<<<< HEAD
         self.difficulty = input("Select difficulty (easy/medium/hard): ").lower()
         if self.difficulty == "easy":
             self.max_attempts = 10
@@ -44,6 +50,13 @@ class GuessingGame:
     def generate_number(self):
         # Generate random secret number
         self.secret_numver = random.randint(1,100)
+=======
+        pass
+
+    def generate_number(self):
+        # Generate random secret number
+        pass
+>>>>>>> ab3cf02d52c536c8cf7f785b58ad29688501b30b
 
     def play(self):
         # Main guessing loop
@@ -51,6 +64,7 @@ class GuessingGame:
         # Check if guess is too high or too low
         # Track attempts
         # End when guessed correctly or attempts run out
+<<<<<<< HEAD
         while self.attempts < self.max_attempts:
             guess = int(input(f"Attempt {self.attempts + 1}/{self.max_attempts}: Enter your guess: "))
             self.attempts += 1
@@ -76,3 +90,14 @@ class GuessingGame:
     def show_results(self):
         # Display final score and game results
         print(f"Game Over! Your score: {self.max_attempts - self.attempts}")
+=======
+        pass
+
+    def check_guess(self, guess):
+        # Compare guess against secret number
+        pass
+
+    def show_results(self):
+        # Display final score and game results
+        pass
+>>>>>>> ab3cf02d52c536c8cf7f785b58ad29688501b30b
